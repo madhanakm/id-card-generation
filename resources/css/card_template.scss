@@ -1,0 +1,3292 @@
+.id_card{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/card/top-bg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 10px;
+    .main__content{
+        margin-top: 38px;
+        padding-right: 2rem;
+        .photo_name{
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .student_name{
+                padding-top: 8px;
+                font-size: 15px;
+                color: #66a4ff;
+            }
+        }
+        .qr__image{
+            border: 1px solid #ffffff;
+            height: 60px;
+        }
+        .name{
+            font-size: 14px;
+        }
+        .profession{
+            font-size: 12px;
+            padding-top: 2px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_1{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/1/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 80px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 14px;
+            }
+            .profession{
+                font-size: 12px;
+                padding-top: 2px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                width: 100%;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_2{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/2/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 300;
+                color: #B32E88;
+            }
+            .profession{
+                font-size: 12px;
+                padding-top: 5px;
+                color: #B32E88;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                    fill: #B32E88;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    color: #B32E88;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_3{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/3/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #ffffff;
+            }
+            .profession{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #ffffff;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_4{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/4/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .rotate__text{
+        transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    }
+    .rotate__text_reverse{
+        transform:  translateX(50%) translateY(-50%) rotate(-90deg);
+    }
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 16px;
+            }
+            .profession{
+                font-size: 13px;
+                padding-top: 5px;
+                font-weight: 100;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_5{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/5/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_6{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/6/bg_1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 30px;
+            top: 35px;
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_4{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/4/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_5{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/5/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_6{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/6/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_7{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/7/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 85px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_8{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/8/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #1fc3f0;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 85px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.steps{
+    .st-bg{
+        background-color: #ffffff;
+        color: #4c5270;
+    }
+    .bg-grey-light{
+        background-color: #e5e7eb;
+    }
+    .st-bar-bg{
+        background-color: #e5e7eb;
+    }
+    .done{
+        .st-bg{
+            background-color: #7366ff;
+            color: #ffffff;
+        }
+        .st-bar-bg{
+            background-color: #7366ff;
+            color: #ffffff;
+        }
+    }
+}
+
+.transition_icon{
+    -webkit-transition: all 0.3s 0s ease-in-out;
+    -moz-transition: all 0.3s 0s ease-in-out;
+    -o-transition: all 0.3s 0s ease-in-out;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.card_landscape_5{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/5/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 22px;
+            font-weight: 200;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 14px;
+            padding-top: 2px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #c4190c;
+                height: 1px;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                transform: translate(-50%, 0);
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #c4190c;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_6{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/6/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 13px;
+            padding-top: 3px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #000000;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #000000;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_7{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/7/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 13px;
+            padding-top: 3px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #000000;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #000000;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_8{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/8/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #dfcec4;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 22px;
+            font-weight: 200;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 14px;
+            padding-top: 2px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #5f6769;
+                height: 1px;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                transform: translate(-50%, 0);
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #dfcec4;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_9{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/9/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #177e8c;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            color: #177e8c;
+            svg{
+                fill: #177e8c;
+            }
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 30px;
+            top: 35px;
+            .qr__image{
+                height: 50px;
+                border: 1px solid #ffffff;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_10{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/10/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 13px;
+            padding-top: 3px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #ffffff;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #ffffff;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #243d96;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_11{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/11/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 200;
+            line-height: 20px;
+        }
+        .profession{
+            font-size: 12px;
+            padding-top: 2px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -4px;
+                background-color: #262626;
+                height: 1px;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                transform: translate(-50%, 0);
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #262626;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_12{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/12/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            color: #ffffff;
+            svg{
+                fill: #ffffff;
+            }
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 30px;
+            top: 35px;
+            .qr__image{
+                height: 50px;
+                border: 1px solid #ffffff;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    fill: #ffffff;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 30px;
+            top: 35px;
+            .qr__image{
+                height: 50px;
+                border: 1px solid #ffffff;
+                width: 50px;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_13{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/13/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #b3a389;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            color: #b3a389;
+            svg{
+                fill: #b3a389;
+            }
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .__desc__names{
+                    margin-top: 32px;
+                    div{
+                        font-size: 16px;
+                        line-height: 28px;
+                        border-bottom: 1px solid #b3a3899e;
+                        width: 100%;
+                        height: inherit;
+                        font-weight: 600;
+                        &:last-child{
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 30px;
+            top: 35px;
+            .qr__image{
+                height: 50px;
+                border: 1px solid #ffffff;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_14{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/14/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #b3a389;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            color: #ffffff;
+            svg{
+                fill: #ffffff;
+            }
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            padding-right: 15px;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 200;
+                line-height: 25px;
+            }
+            .profession{
+                font-size: 14px;
+                padding-top: 2px;
+                font-weight: 100;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .__desc__names{
+                    margin-top: 32px;
+                    div{
+                        font-size: 12px;
+                        line-height: 20px;
+                        border-bottom: 1px solid #ffffff;
+                        width: 100%;
+                        height: inherit;
+                        font-weight: 600;
+                        &:last-child{
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+        .qr_code{
+            position: absolute;
+            right: 25px;
+            top: 32px;
+            .qr__image{
+                height: 50px;
+                border: 1px solid #ffffff;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_15{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/15/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 13px;
+            padding-top: 3px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #ffffff;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #ffffff;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #243d96;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_landscape_16{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/landscape/16/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            padding-left: 50px;
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .name{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 25px;
+        }
+        .profession{
+            font-size: 13px;
+            padding-top: 3px;
+            font-weight: 100;
+            letter-spacing: 1px;
+            position: relative;
+            &:after{
+                content: "";
+                width: 65%;
+                bottom: -9px;
+                background-color: #ffffff;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                margin: 0 auto;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    font-weight: 100;
+                }
+                svg{
+                    fill: #ffffff;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #243d96;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_9{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/9/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 16px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 22px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+            .profession{
+                font-size: 12px;
+                padding-top: 5px;
+                color: #ffffff;
+            }
+            .___desc{
+                .icon{
+                    height: 12px;
+                    fill: #ffffff;
+                }
+                .phone, .email, .address,{
+                    font-size: 12px;
+                    color: #ffffff;
+                }
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 60px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_10{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/10/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #ffffff;
+            }
+            .profession{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+        svg{
+            fill: #ffffff;
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #ffffff;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_11{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/11/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 50px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_12{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/12/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #ffffff;
+            }
+            .profession{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #ffffff;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_13{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/13/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .photo_name{
+            .p__photo{
+                background-image: url("/images/card/profile-bg.svg");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 95px;
+                height: 95px;
+                .p__image{
+                    max-width: 73%;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    height: 69px;
+                    width: 73%;
+                }
+            }
+            font-weight: 600;
+            .school_name{
+                font-size: 13px;
+                padding-top: 10px;
+                letter-spacing: 1px;
+            }
+            .name{
+                font-size: 13px;
+                color: #c66b3b;
+            }
+            .profession{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #3c3431;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #3c3431;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+.card_portrait_14{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/14/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .p__photo{
+            background-image: url("/images/card/profile-bg.svg");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 95px;
+            height: 95px;
+            .p__image{
+                max-width: 73%;
+                border-radius: 50%;
+                object-fit: cover;
+                height: 69px;
+                width: 73%;
+            }
+        }
+        font-weight: 600;
+        .school_name{
+            font-size: 13px;
+            padding-top: 10px;
+            letter-spacing: 1px;
+        }
+        .name{
+            font-size: 13px;
+            color: #ffffff;
+        }
+        .profession{
+            font-size: 12px;
+            color: #ffffff;
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        svg{
+            fill: #ffffff;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #ffffff;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_portrait_15{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/portrait/15/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .p__photo{
+            background-image: url("/images/card/profile-bg.svg");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 95px;
+            height: 95px;
+            .p__image{
+                max-width: 73%;
+                border-radius: 50%;
+                object-fit: cover;
+                height: 69px;
+                width: 73%;
+            }
+        }
+        font-weight: 600;
+        .school_name{
+            font-size: 13px;
+            padding-top: 10px;
+            letter-spacing: 1px;
+        }
+        .name{
+            font-size: 13px;
+            color: #ffffff;
+        }
+        .profession{
+            font-size: 12px;
+            color: #ffffff;
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        svg{
+            fill: #ffffff;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+                fill: #ffffff;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+                color: #ffffff;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card_portrait{
+    width: 200px;
+    height: 350px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-print-color-adjust:exact;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    -webkit-filter:opacity(1);
+    background-image: url("/images/cards/bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: #ffffff;
+    fill: #ffffff;
+    .main__content{
+        .round_circle{
+            .c__border{
+                background-color: #2d2d2d;
+            }
+        }
+        .p__photo{
+            background-image: url("/images/card/profile-bg.svg");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 95px;
+            height: 95px;
+            .p__image{
+                max-width: 73%;
+                border-radius: 50%;
+                object-fit: cover;
+                height: 69px;
+                width: 73%;
+            }
+        }
+        font-weight: 600;
+        .school_name{
+            font-size: 13px;
+            padding-top: 10px;
+            letter-spacing: 1px;
+        }
+        .name{
+            font-size: 13px;
+        }
+        .profession{
+            font-size: 12px;
+        }
+        .qr_code{
+            .qr__image{
+                border: 1px solid #ffffff;
+                height: 45px;
+                img{
+                    height: 100%;
+                }
+            }
+        }
+        .right__text{
+            padding-top: 30px;
+        }
+        .___desc{
+            .icon{
+                height: 12px;
+            }
+            .phone, .email, .address,{
+                font-size: 12px;
+            }
+        }
+    }
+    .bottom__content{
+        padding-top: 10px;
+        padding-bottom: 8px;
+        .bar{
+            background-image: url("/images/card/card_bottom_bar.svg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6px;
+        }
+        .credit{
+            .c__text{
+                font-size: 10px;
+            }
+            .c__logo{
+                height: 20px;
+            }
+        }
+    }
+}
+
+.main__content{
+    .___desc{
+        .__desc__names{
+            gap: 0;
+            .address,.email,.phone{
+                align-items: center;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.card__content{
+    .main__content{
+        .__company{
+            height: 28px;
+        }
+    }
+}

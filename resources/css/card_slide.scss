@@ -1,0 +1,26 @@
+.card-items{
+    .navigation{
+        .left__nav, .right__nav{
+            svg{
+                fill: #4c5270;
+            }
+            &.disabled{
+                opacity: 0.5;
+                user-select: none;
+                cursor: inherit;
+            }
+            &:hover, &:focus{
+                background-color: #7366ff;
+                svg{
+                    fill: #ffffff !important;
+                }
+            }
+        }
+    }
+}
+.hiw{
+    .st0{
+        fill:none;stroke:#231F20;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;
+    }
+}
+

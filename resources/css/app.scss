@@ -1,0 +1,36 @@
+/* Reset */
+@import 'tailwindcss/base';
+@import 'reset';
+@import 'browser_default';
+
+/* Components */
+@import 'tailwindcss/components';
+@import 'buttons';
+@import 'form';
+@import 'font';
+
+@import "landing/custom.scss";
+
+/** Typography */
+//@import "";
+
+/* Utilities */
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/screens';
+
+/* Modules */
+@import "variables";
+@import "switch";
+@import "menu";
+@import "tables";
+@import "dashboard";
+@import "top";
+@import 'first_input';
+@import 'card';
+@import 'card_template';
+@import 'card_slide';
+//@import 'card_design';
+@import 'print';
+@import 'custom';
+@import 'dark_screen';
+@import 'mediaQuery';

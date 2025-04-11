@@ -1,0 +1,44 @@
+@media print{
+    body{
+        height: 100%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        &.bg-qc{ background:transparent !important; }
+        .top-nav{
+            display: none;
+        }
+        .sec-cont{
+            padding: 0;
+            margin: 0;
+        }
+        * {
+            visibility: hidden;
+            margin:0;
+            padding:0
+        }
+        .print_area, .print_area *{
+            visibility: visible;
+        }
+        .print_area{
+            margin: 0 !important;
+            align: center;
+            background: transparent !important;
+        }
+        .card_gen_layout{
+            .pageBreak { page-break-before : always; page-break-inside: avoid }
+            .generator__container, .p_card, .input-box { margin: 0; padding: 0; }
+            .input-box .top-bar, .steps { display: none; }
+        }
+    }
+    @page {
+        size: A4;
+        margin: 0cm !important;
+        background-color: #fff;
+    }
+}
